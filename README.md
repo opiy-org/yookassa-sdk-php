@@ -1,4 +1,8 @@
-# YooKassa API PHP Client Library
+# YooKassa API PHP Client Library (fork)
+
+### ver. 2.3
+
+Форк из официальной репы, после ее скоропостижной пропажи.
 
 [![Build Status](https://travis-ci.org/yoomoney/yookassa-sdk-php.svg?branch=master)](https://travis-ci.org/yoomoney/yookassa-sdk-php)
 [![Latest Stable Version](https://poser.pugx.org/yoomoney/yookassa-sdk-php/v/stable)](https://packagist.org/packages/yoomoney/yookassa-sdk-php)
@@ -22,16 +26,16 @@ PHP 5.3.2 (и выше) с расширением libcurl
 1. Установите менеджер пакетов Composer.
 2. В консоли выполните команду
 ```bash
-composer require yoomoney/yookassa-sdk-php
+composer require opiy-org/yookassa-sdk-php
 ```
 
 ### В файле composer.json своего проекта
-1. Добавьте строку `"yoomoney/yookassa-sdk-php": "^2.1"` в список зависимостей вашего проекта в файле composer.json
+1. Добавьте строку `"opiy-org/yookassa-sdk-php": "^2.3"` в список зависимостей вашего проекта в файле composer.json
 ```
 ...
     "require": {
         "php": ">=5.3.2",
-        "yoomoney/yookassa-sdk-php": "^2.1"
+        "opiy-org/yookassa-sdk-php": "^2.1"
 ...
 ```
 2. Обновите зависимости проекта. В консоли перейдите в каталог, где лежит composer.json, и выполните команду:
